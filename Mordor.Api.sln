@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Api", "Mordor.Api\Mordor.Api.csproj", "{32FD4D9C-8C4F-499C-98AE-C78B781796A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Domain", "Mordor.Domain\Mordor.Domain.csproj", "{3D9E8C91-DA98-4F98-B8A7-DC2C66A52E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Repository", "Mordor.Repository\Mordor.Repository.csproj", "{8EF2B12D-CC60-44ED-B286-08A78566728F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Repository.Abstractions", "Mordor.Repository.Abstractions\Mordor.Repository.Abstractions.csproj", "{0F199F8A-81AE-429E-903F-02C97941276D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Service", "Mordor.Service\Mordor.Service.csproj", "{09C4BDF8-F7B3-45D1-BEFB-29429FB671C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mordor.Service.Abstractions", "Mordor.Service.Abstractions\Mordor.Service.Abstractions.csproj", "{3F68BC64-4B94-4C11-B4B2-77B13D510EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FD4D9C-8C4F-499C-98AE-C78B781796A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FD4D9C-8C4F-499C-98AE-C78B781796A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FD4D9C-8C4F-499C-98AE-C78B781796A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FD4D9C-8C4F-499C-98AE-C78B781796A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9E8C91-DA98-4F98-B8A7-DC2C66A52E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9E8C91-DA98-4F98-B8A7-DC2C66A52E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9E8C91-DA98-4F98-B8A7-DC2C66A52E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9E8C91-DA98-4F98-B8A7-DC2C66A52E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF2B12D-CC60-44ED-B286-08A78566728F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF2B12D-CC60-44ED-B286-08A78566728F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF2B12D-CC60-44ED-B286-08A78566728F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF2B12D-CC60-44ED-B286-08A78566728F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F199F8A-81AE-429E-903F-02C97941276D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F199F8A-81AE-429E-903F-02C97941276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F199F8A-81AE-429E-903F-02C97941276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F199F8A-81AE-429E-903F-02C97941276D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C4BDF8-F7B3-45D1-BEFB-29429FB671C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C4BDF8-F7B3-45D1-BEFB-29429FB671C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C4BDF8-F7B3-45D1-BEFB-29429FB671C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C4BDF8-F7B3-45D1-BEFB-29429FB671C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F68BC64-4B94-4C11-B4B2-77B13D510EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F68BC64-4B94-4C11-B4B2-77B13D510EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F68BC64-4B94-4C11-B4B2-77B13D510EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F68BC64-4B94-4C11-B4B2-77B13D510EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2C9D797-CE17-4D02-B733-8510AB02B5EC}
+	EndGlobalSection
+EndGlobal
